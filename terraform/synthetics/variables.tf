@@ -5,7 +5,7 @@ variable "grafana_service_token" {
 }
 
 variable "sm_access_token" {
-  description = "Synthetic Monitoring access token"
+  description = "Synthetic Monitoring access token test"
   type        = string
   sensitive   = true
 }
