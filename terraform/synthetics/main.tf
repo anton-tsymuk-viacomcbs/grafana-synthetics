@@ -8,6 +8,7 @@ resource "grafana_synthetic_monitoring_check" "Synthetics_BrowserCheck_login" {
   labels    = {}
   frequency = 300000
   timeout   = 60000
+
   settings {
     browser {
       script = file("${path.module}/../../scripts/browser.js")
@@ -23,6 +24,7 @@ resource "grafana_synthetic_monitoring_check" "Synthetics_HttpCheck" {
   labels    = {}
   frequency = 300000
   timeout   = 60000
+
   settings {
     browser {
       script = file("${path.module}/../../scripts/http.js")
