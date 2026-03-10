@@ -12,7 +12,7 @@ export default function () {
       cookies: {},
     };
 
-    url = http.url`https://quickpizza.grafana.com/`;
+    url = http.url`https://quickpaaizza.grafana.com/`;
     resp = http.request("GET", url, null, params);
 
     check(resp, { "status equals 200": (r) => r.status === 200 });
