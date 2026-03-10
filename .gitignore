@@ -1,3 +1,4 @@
+# .gitignore
 # Ignore secrets and Terraform state
 secrets.auto.tfvars
 terraform/synthetics/.terraform/
